@@ -38,13 +38,14 @@ export default class DailyContent extends Component {
   render () {
     let contentData = this.props.contentData;
     let thumbnail = (typeof contentData.results.福利[0].url !== 'undefined') ? contentData.results.福利[0].url : '';
+
     let Header = (
       <NavigationBar title = {contentData.date}
         backHidden = {false}
         backIcon = {true}
         barTintColor = 'white'
         barOpacity = {this.state.opacity}
-        barStyle = {styles.navBar}
+        barStyle = {styles.navbar}
         backFunc = {() => {
           this.props.navigator.pop();
         }}/>
@@ -95,7 +96,6 @@ export default class DailyContent extends Component {
       </TouchableHighlight>
     ))
   }
-
 }
 
 const styles = StyleSheet.create({

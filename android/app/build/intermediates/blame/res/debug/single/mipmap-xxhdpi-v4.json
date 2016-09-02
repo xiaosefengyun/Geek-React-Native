@@ -2,5 +2,9 @@
     {
         "merged": "/Users/vince/Desktop/gank/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
         "source": "/Users/vince/Desktop/gank/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/vince/Desktop/Geek/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/vince/Desktop/Geek/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]
